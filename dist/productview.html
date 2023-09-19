@@ -13,614 +13,276 @@
 
 <body class="bg-gray-100">
 
-  <div
-    class="bg-mobile-banner-first sm:bg-sm-banner md:bg-md-banner lg:bg-lg-banner-first h-full bg-no-repeat object-cover ">
-    <div class=" flex items-center justify-between px-5 ">
+    <!-- Shop Wrapper -->
+    <div class="container grid grid-cols-12 ">
+      <!-- Slidebar -->
+      <div class="col-span-3 items-start">
+          <div class=" shadow pt-2  px-3 pb-16 rounded">
+              <div class="divide-y divide-gray-200 space-y-5">
 
-      <div>
-        <span class="text-white cursor-pointer">
-          <i class="fa-solid fa-bars"></i>
-        </span>
+                  <!-- Category Filter -->
+                  <div class="pt-4">
+                      <p class="text-lg text-gray-800 font-medium">CATEGORIES</p>
+                      <div class="flex justify-between pt-3">
+                          <form action="" class="flex items-center space-x-2 cursor-pointer">
+                              <input type="checkbox" name="checkbox"
+                                  class="text-[#ff0000] rounded focus:ring-0 cursor-pointer" id="cat-1">
+                              <label class="text-gray-600">Bedroom</label>
+                          </form>
+                          <span class="text-gray-600 text-sm">(19)</span>
+                      </div>
+                      <div class="flex justify-between pt-3">
+                          <form action="" class="flex items-center space-x-2 cursor-pointer">
+                              <input type="checkbox" name="checkbox"
+                                  class="text-[#ff0000] rounded focus:ring-0 cursor-pointer" id="cat-1">
+                              <label class="text-gray-600">Sofa</label>
+                          </form>
+                          <span class="text-gray-600 text-sm">(19)</span>
+                      </div>
+
+                      <div class="flex justify-between pt-3">
+                          <form action="" class="flex items-center space-x-2 cursor-pointer">
+                              <input type="checkbox" name="checkbox"
+                                  class="text-[#ff0000] rounded focus:ring-0 cursor-pointer" id="cat-1">
+                              <label class="text-gray-600">Outdoor</label>
+                          </form>
+                          <span class="text-gray-600 text-sm">(9)</span>
+                      </div>
+
+                      <div class="flex justify-between pt-3">
+                          <form action="" class="flex items-center space-x-2 cursor-pointer">
+                              <input type="checkbox" name="checkbox"
+                                  class="text-[#ff0000] rounded focus:ring-0 cursor-pointer" id="cat-1">
+                              <label class="text-gray-600">Dinning</label>
+                          </form>
+                          <span class="text-gray-600 text-sm">(56)</span>
+                      </div>
+                  </div>
+                  <!-- Category Filter Ends -->
+
+                  <!-- Brands Filter -->
+                  <div class="pt-4">
+                      <p class="text-lg text-gray-800 font-medium">BRANDS</p>
+                      <div class="flex justify-between pt-3">
+                          <form action="" class="flex items-center space-x-2 cursor-pointer">
+                              <input type="checkbox" name="checkbox"
+                                  class="text-[#ff0000] rounded focus:ring-0 cursor-pointer" id="cat-1">
+                              <label class="text-gray-600">Dominik</label>
+                          </form>
+                          <span class="text-gray-600 text-sm">(19)</span>
+                      </div>
+                      <div class="flex justify-between pt-3">
+                          <form action="" class="flex items-center space-x-2 cursor-pointer">
+                              <input type="checkbox" name="checkbox"
+                                  class="text-[#ff0000] rounded focus:ring-0 cursor-pointer" id="cat-1">
+                              <label class="text-gray-600">Karl</label>
+                          </form>
+                          <span class="text-gray-600 text-sm">(19)</span>
+                      </div>
+
+                      <div class="flex justify-between pt-3">
+                          <form action="" class="flex items-center space-x-2 cursor-pointer">
+                              <input type="checkbox" name="checkbox"
+                                  class="text-[#ff0000] rounded focus:ring-0 cursor-pointer" id="cat-1">
+                              <label class="text-gray-600">Maxing</label>
+                          </form>
+                          <span class="text-gray-600 text-sm">(9)</span>
+                      </div>
+
+                      <div class="flex justify-between pt-3">
+                          <form action="" class="flex items-center space-x-2 cursor-pointer">
+                              <input type="checkbox" name="checkbox"
+                                  class="text-[#ff0000] rounded focus:ring-0 cursor-pointer" id="cat-1">
+                              <label class="text-gray-600">Ernest</label>
+                          </form>
+                          <span class="text-gray-600 text-sm">(523)</span>
+                      </div>
+                  </div>
+                  <!-- Brands Filter Ends -->
+
+                  <!-- Price -->
+                  <div class="pt-4">
+                      <p class="text-xl text-gray-800 font-medium">PRICE</p>
+                      <div class="flex items-center mt-4">
+
+                          <input type="text" placeholder="min"
+                              class="w-full px-3 py-1 border-gray-300 focus:border-blue-800 rounded-md">
+                          <span class="text-gray-500 px-3">-</span>
+
+                          <input type="text" placeholder="max"
+                              class="w-full px-3 py-1 border-gray-300 focus:border-blue-800 rounded-md">
+
+                      </div>
+                  </div>
+                  <!-- Price Ends -->
+
+                  <!-- Size Filter -->
+                  <div class="pt-4">
+                      <p class="text-xl text-gray-800 font-medium">SIZE</p>
+                      <div class="flex items-center mt-4 gap-3">
+                          <!-- Single Size -->
+                          <div class="size-selector">
+                              <input type="radio" name="size" class="hidden" id="size-s">
+                              <label for="size-s"
+                                  class="text-gray-600 w-6 h-6 text-sm  ring-1 ring-gray-600  rounded-sm flex items-center justify-center cursor-pointer">S</label>
+                          </div>
+                          <div class="size-selector">
+                              <input type="radio" name="size" class="hidden" id="size-m">
+                              <label for="size-m"
+                                  class="text-gray-600 w-6 h-6 text-sm  ring-1 ring-gray-600  rounded-sm flex items-center justify-center cursor-pointer">M</label>
+                          </div>
+
+                          <div class="size-selector">
+                              <input type="radio" name="size" class="hidden" id="size-l">
+                              <label for="size-l"
+                                  class="text-gray-600 w-6 h-6 text-sm  ring-1 ring-gray-600  rounded-sm flex items-center justify-center cursor-pointer">L</label>
+                          </div>
+
+                          <div class="size-selector">
+
+                              <input type="radio" name="size" class="hidden" id="size-xl">
+                              <label for="size-xl"
+                                  class="text-gray-600 w-6 h-6 text-sm  ring-1 ring-gray-600  rounded-sm flex items-center justify-center cursor-pointer">XL</label>
+                          </div>
+                          <div class="size-selector">
+                              <input type="radio" name="size" class="hidden" id="size-xs">
+                              <label for="size-xs"
+                                  class="text-gray-600 w-6 h-6 text-sm  ring-1 ring-gray-600  rounded-sm flex items-center justify-center cursor-pointer">XS</label>
+                          </div>
+                          <!-- Single Size Ends -->
+
+
+                      </div>
+                  </div>
+                  <!-- Size Filter Ends -->
+
+                  <!-- Color Filter -->
+                  <div class="pt-4 col-span-3">
+                      <p class="text-xl text-gray-800 font-medium ">COLOR</p>
+
+                      <!-- Single Size -->
+                      <div class="flex  items-center gap-3 mt-4">
+                          <div class="color-selector">
+                              <input type="radio" class="hidden" id="pink">
+                              <label for="pink"
+                                  class=" flex justify-center h-6 w-6 rounded-full cursor-pointer"
+                                  style="background-color: pink; "> 
+                              </label>
+                          </div>
+
+                          <div class="color-selector">
+                              <input type="radio" class="hidden" id="red">
+                              <label for="red"
+                                  class=" flex justify-center h-6 w-6 rounded-full cursor-pointer"
+                                  style="background-color: red; "> 
+                              </label>
+                          </div>
+
+                          <div class="color-selector">
+                              <input type="radio" class="hidden" id="yellow">
+                              <label for="yellow"
+                                  class=" flex justify-center h-6 w-6 rounded-full cursor-pointer"
+                                  style="background-color: yellow; "> 
+                              </label>
+                          </div>
+
+                          <div class="color-selector">
+                              <input type="radio" class="hidden" id="green">
+                              <label for="green"
+                                  class=" flex justify-center h-6 w-6 rounded-full cursor-pointer"
+                                  style="background-color: green; "> 
+                              </label>
+                          </div>
+
+                          <div class="color-selector">
+                              <input type="radio" class="hidden" id="yellowgreen">
+                              <label for="yellowgreen"
+                                  class=" flex justify-center h-6 w-6 rounded-full cursor-pointer"
+                                  style="background-color: yellowgreen; "> 
+                              </label>
+                          </div>
+                      </div>
+                      <!-- Single Size Ends -->
+                  </div>
+
+              </div>
+
+          </div>
+
       </div>
-      <div class="">
-        <img src="/images/logo-sm.svg" class="h-28 md:w-44 w-36  pl-6 " alt="">
+
+      <!-- Product -->
+      <div class="col-start-5 col-end-13 ml-3">
+          <div class="flex justify-between items-center mb-4">
+              <select name="" id="" class="w-44 text-sm text-gray-600 border-gray-300 shadow-md rounded focus:ring-blue-600 focus:border-blue-600 px-4 py-3">
+                  <option value="">Deafult sorting</option>
+                  <option value="">Price low-high</option>
+                  <option value="">Price high-low</option>
+                  <option value="">Latest product</option>
+              </select>
+
+              <div class="flex gap-1 ml-auto">
+                  <div class="bg-[#ff0000] text-white rounded w-10 h-9 border-[#ff0000] flex items-center justify-center cursor-pointer">
+                      <i class="fas fa-th"></i>
+                  </div>
+                  <div class=" text-gray-600 rounded w-10 h-9  flex items-center justify-center border-gray-950 cursor-pointer">
+                      <i class="fas fa-list"></i>
+                  </div>
+          </div>
+              
+          </div>
+
+          <div class="grid grid-cols-3 gap-2">
+              <div class="flex justify-center items-center relative group">
+                <img src="/images/products/beef-1.jpeg" alt="" >
+                <div  class="absolute inset-0 flex items-center justify-center gap-2 overflow-hidden bg-black bg-opacity-10 opacity-0 group-hover:opacity-100 ">
+                      <a href="" class="text-[#ff0000] bg-slate-300 text-lg hover:bg-gray-800 w-9 h-9 flex justify-center items-center rounded-md"><i class="fas fa-search "></i></a>
+                      <a href="" class="text-[#ff0000] bg-slate-300 text-lg hover:bg-gray-800 w-9 h-9 flex justify-center items-center rounded-md"><i class="fas fa-heart "></i></a>
+                  </div>
+              </div>
+
+              <div class="flex justify-center items-center relative group">
+                <img src="/images/products/beef-1.jpeg" alt="" >
+                <div  class="absolute inset-0 flex items-center justify-center gap-2 overflow-hidden bg-black bg-opacity-10 opacity-0 group-hover:opacity-100 ">
+                      <a href="" class="text-[#ff0000] bg-slate-300 text-lg hover:bg-gray-800 w-9 h-9 flex justify-center items-center rounded-md"><i class="fas fa-search "></i></a>
+                      <a href="" class="text-[#ff0000] bg-slate-300 text-lg hover:bg-gray-800 w-9 h-9 flex justify-center items-center rounded-md"><i class="fas fa-heart "></i></a>
+                  </div>
+              </div>
+
+              <div class="flex justify-center items-center relative group">
+                <img src="/images/products/beef-1.jpeg" alt="" >
+                  <div  class="absolute inset-0 flex items-center justify-center gap-2 overflow-hidden bg-black bg-opacity-10 opacity-0 group-hover:opacity-100 ">
+                      <a href="" class="text-[#ff0000] bg-slate-300 text-lg hover:bg-gray-800 w-9 h-9 flex justify-center items-center rounded-md"><i class="fas fa-search "></i></a>
+                      <a href="" class="text-[#ff0000] bg-slate-300 text-lg hover:bg-gray-800 w-9 h-9 flex justify-center items-center rounded-md"><i class="fas fa-heart "></i></a>
+                  </div>
+              </div>
+
+              <div class="flex justify-center items-center relative group">
+                <img src="/images/products/beef-1.jpeg" alt="" >
+                  <div  class="absolute inset-0 flex items-center justify-center gap-2 overflow-hidden bg-black bg-opacity-10 opacity-0 group-hover:opacity-100 ">
+                      <a href="" class="text-[#ff0000] bg-slate-300 text-lg hover:bg-gray-800 w-9 h-9 flex justify-center items-center rounded-md"><i class="fas fa-search "></i></a>
+                      <a href="" class="text-[#ff0000] bg-slate-300 text-lg hover:bg-gray-800 w-9 h-9 flex justify-center items-center rounded-md"><i class="fas fa-heart "></i></a>
+                  </div>
+              </div>
+
+              <div class="flex justify-center items-center relative group">
+                <img src="/images/products/beef-1.jpeg" alt="" >
+                  <div  class="absolute inset-0 flex items-center justify-center gap-2 overflow-hidden bg-black bg-opacity-10 opacity-0 group-hover:opacity-100 ">
+                      <a href="" class="text-[#ff0000] bg-slate-300 text-lg hover:bg-gray-800 w-9 h-9 flex justify-center items-center rounded-md"><i class="fas fa-search "></i></a>
+                      <a href="" class="text-[#ff0000] bg-slate-300 text-lg hover:bg-gray-800 w-9 h-9 flex justify-center items-center rounded-md"><i class="fas fa-heart "></i></a>
+                  </div>
+              </div>
+
+              
+
+          </div>
+
       </div>
+      <!-- Shop Wrapper Ends -->
 
-
-
-      <div class=" space-x-3 flex justify-between items-center">
-        <button
-          class="bg-yellow-500 text-xs rounded-2xl font-serif  font-normal text-white md:w-16 md:h-8 w-14 h-7 text-centers cursor-pointer">Sign
-          Up</button>
-
-        <div class=" space-x-3 flex justify-between items-center">
-          <button
-            class="bg-white text-xs rounded-2xl font-serif  font-normal text-[#ff3009ff] text-center md:w-16 md:h-8 w-14 h-7 cursor-pointer">Sign
-            In</button>
-
-        </div>
-      </div>
-
-    </div>
-
-
-    <div class=" lg:pt-12 md:pt-24 sm:pt-16 w-full flex flex-col items-center pb-6 ">
-      <p class=" lg:text-4xl md:text-3xl text-2xl font-bold text-white pb-6  items-center ">Food is at your doorstep
-      </p>
-
-      <div class="relative ">
-
-        <input type="text" name="" id=""
-          class="placeholder:text-gray-500 text-xs lg:text-sm rounded-3xl bg-white border-1 font-medium border-white w-60 h-8 md:h-10 lg:w-96 lg:h-11 cursor-pointer"
-          placeholder="      What makes you most hungry?">
-        <img src="/images/search.svg" alt="" class="absolute left-1 top-1/2 transform -translate-y-1/2 w-7 h-7  ">
-
-        <a href="searchresult.html"
-          class="absolute right-1 top-1/2 transform -translate-y-1/2 w-7 h-7 md:h-9 md:w-9 rounded-full text-center bg-[#ff3009ff]   text-white text-sm md:text-lg flex items-center justify-center ">
-          <i class="fas fa-chevron-right"></i>
-        </a>
-
-      </div>
-      <a
-        class="bg-white text-xs font-white rounded-2xl h-7 md:h-8 w-44 text-center text-gray-600 mt-3 flex justify-center items-center space-x-1 font-bold">
-        <span>
-          <i class="fa-solid fa-user"></i>
-        </span>
-
-        <span class="">Sign in for saved address</span> </a>
-
-    </div>
-
-
-    <div class="container md:pb-4 pb-8 px-5 flex items-center justify-center space-x-3 ">
-      <div
-        class="bg-[#f7eaceff] rounded-xl   flex flex-col items-center justify-center ring-2 ring-red-400 w-20 h-24 hover:cursor-pointer  hover:scale-110 transition hover:ring-4">
-        <a href="" class="h-7 w-16 mb-8 text-center">
-          <img src="/images/products/burger.svg" alt="" class=" p-2 ">
-          <p class="text-xs font-semibold font-serif  text-[#ff3009ff] ">Fast Food</p>
-        </a>
-        
-      </div>
-
-      <div
-        class="bg-[#f7eaceff] rounded-xl  hover:cursor-pointer flex flex-col items-center justify-center ring-2 ring-red-400 w-20 h-24 hover:scale-110 transition hover:ring-4">
-        <div class="h-7 w-16 mb-2">
-          <img src="/images/products/Sea-Foods.svg" alt="" class=" p-1 ">
-        </div>
-        <div class="mt-5">
-          <p class="text-xs font-semibold font-serif  text-[#ff3009ff] ">Sea Foods</p>
-        </div>
-      </div>
-
-      <div
-        class="bg-[#f7eaceff] rounded-xl hover:cursor-pointer  flex flex-col items-center  ring-2 ring-red-400 w-20 h-24 hover:scale-110 transition hover:ring-4">
-        <div class="h-7 w-16 px-2 pt-2 ">
-          <img src="/images/products/sweet.svg" alt="" class=" h-14 w-14 ">
-        </div>
-        <div class="pt-10">
-          <p class="text-xs font-semibold font-serif  text-[#ff3009ff] ">Sweets</p>
-        </div>
-      </div>
-
-      <div
-        class="bg-[#f7eaceff] rounded-xl hover:cursor-pointer  flex flex-col items-center  ring-2 ring-red-400 w-20 h-24 hover:scale-110 transition hover:ring-4">
-
-        <a href="" class="h-7 w-16 pt-5 text-center">
-          <img src="/images/products/medicine.svg" alt="" class=" p-2 ">
-          <p class="text-xs font-semibold font-serif  text-[#ff3009ff]   ">Medicine</p>
-        </a>
-      </div>
-
-      <div
-        class="bg-[#f7eaceff] rounded-xl hover:cursor-pointer  flex flex-col items-center justify-center ring-2 ring-red-400 w-20 h-24 hover:scale-110 transition hover:ring-4">
-        <div class="h-7 w-16 mb-2 ">
-          <img src="/images/products/bottle.svg" alt="" class="h-12 w-16   ">
-        </div>
-        <div class="mt-5
-        ">
-          <p class="text-xs font-semibold font-serif  text-[#ff3009ff] ">Drinks</p>
-        </div>
-      </div>
-
-      <div
-      class="bg-[#f7eaceff] rounded-xl hover:cursor-pointer  flex flex-col items-center justify-center ring-2 ring-red-400 w-20 h-24 hover:scale-110 transition hover:ring-4">
-      <div class="h-7 w-16 mb-2">
-        <img src="/images/products/fruit.svg" alt="" class=" ">
-      </div>
-      <div class="mt-5">
-        <p class="text-xs font-semibold font-serif  text-[#ff3009ff] ">Fruits</p>
-      </div>
-    </div>
-
-      <div
-        class="bg-[#f7eaceff] rounded-xl hover:cursor-pointer  flex flex-col items-center justify-center ring-2 ring-red-400 w-20 h-24 hover:scale-110 transition hover:ring-4">
-        <div class="h-7 w-16 mb-2">
-          <img src="/images/products/grocery.svg" alt="" class=" ">
-        </div>
-        <div class="mt-5">
-          <p class="text-xs font-semibold font-serif  text-[#ff3009ff] ">Groceries</p>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="container flex justify-between">
-      <button
-        class="bg-yellow-500 border-gray-300  border-r-0 w-40 h-12 flex items-center justify-center md:w-52 text-center rounded-l-3xl font-medium font-serif text-white">
-        Search By Food
-      </button>
-
-      <button
-        class="bg-[#f3e8ff] border-gray-300  border-r-0 w-40 h-12 flex items-center justify-center md:w-52 text-center rounded-r-3xl font-medium font-serif text-[#ff3009ff]">
-        Search By Groceries
-      </button>
-    </div>
 
 
   </div>
-
-  <div class="container  p-3 lg:flex lg:justify-center  lg:items-center  text-center pt-9 mx-20 pb-9">
-    <div class="flex-col items-center flex w-96 h-44 overflow-clip">
-
-      <div class="">
-        <img src="/images/local-store.svg" alt="" class="h-20 w-24 object-cover">
-
-      </div>
-      <div class="pt-2 h-24 overflow-clip">
-        <p class=" font-bold text-[#ff3009ff] ">Local Favorites</p>
-        <p class="pt-1 text-gray-600 text-sm">Satisfy your cravings by enjoying delivery from beloved local restaurants
-          and popular chains. Effortlessly reorder your favorites or explore exciting new dishes</p>
-      </div>
-    </div>
-
-    <div class="flex-col items-center flex w-96 h-44 overflow-clip md:pt-0 pt-5">
-
-      <div class="">
-        <img src="/images/diamond.svg" alt="" class="h-20 w-24 object-cover">
-
-      </div>
-      <div class="pt-2 h-24 overflow-clip">
-        <p class=" font-bold text-[#ff3009ff] ">Exclusive Perks
-
-        </p>
-        <p class="pt-1 text-gray-600 text-sm">Discover more deals near you.</p>
-      </div>
-    </div>
-
-
-    <div class="flex-col items-center flex w-96 h-44 overflow-clip">
-
-      <div class="">
-        <img src="/images/truck.svg" alt="" class="h-20 w-32 object-cover">
-
-      </div>
-      <div class="pt-2 h-24 overflow-clip">
-        <p class=" font-bold text-[#ff3009ff] ">Delivary or Pickup </p>
-        <p class="pt-1 text-gray-600 text-sm">Sit back and relax while we deliver to your doorstep, no need to wait in
-          line.</p>
-      </div>
-    </div>
-
-
-  </div>
-
-
-<!--Dishes -->
-<div class="container">
-  <p class="font-serif  text-[#ff3009ff] font-bold text-2xl mt-5">Some Dishes</p>
-
-  <div class="h-1 w-1/2 rounded-lg bg-yellow-300 mt-2"></div>
-
-  <div class=" grid grid-cols-4 md:space-x-2 md:flex  md:justify-center pt-6">
-    <div class="col-start-1 col-span-2 flex justify-between space-x-3">
-  
-        <div class="col-start-1 col-span-1 flex items-center flex-col">
-          <div class=" w-32 h-32">
-            <img src="/images/products/sweet-last.jpg" alt="" class="object-cover w-32 h-32 rounded-full"> 
-                   
-          </div>
-          <p class="text-base font-semibold font-serif text-[#ff3009ff]">Sweet</p> 
-        </div>
-
-        <div class="col-start-2 col-span-1 flex items-center flex-col">
-          <div class="w-32 h-32">
-            <img src="/images/products/salad and soy.jpg" alt="" class="object-cover w-32 h-32 rounded-full">          
-          </div>
-          <p class="text-base font-semibold font-serif text-[#ff3009ff]">Salad</p>
-        </div>
-
-        <div class="col-start-3 col-span-1 flex flex-col items-center">
-          <div class="w-32 h-32 ">
-            <img src="/images/shop/circle-4.jpg" alt="" class="object-cover w-32 h-32 rounded-full">          
-          </div>
-          <p class="text-base font-semibold font-serif text-[#ff3009ff]">Soup</p>
-        </div>
-
-        <div class="col-start-4 col-span-1 flex flex-col items-center">
-          <div class="w-32 h-32 ">
-            <img src="/images/products/pizza.jpg" alt="" class="object-cover w-32 h-32 rounded-full">        
-          </div>
-          <p class="text-base font-semibold font-serif text-[#ff3009ff]">Pizza</p>
-        </div>
-
-
-
-    </div>
-
-    <div class="col-start-1 col-span-2 flex justify-between space-x-3 pt-3 md:pt-0">
-  
-      <div class="col-start-1 col-span-1  flex flex-col items-center">
-          <div class=" w-32 h-32">
-            <img src="/images/products/coffee-1.jpg" alt="" class="object-cover w-32 h-32 rounded-full">         
-          </div>
-          <p class="text-base font-semibold font-serif text-[#ff3009ff]">Coffee</p>
-        </div>
-
-        <div class="col-start-2 col-span-1 flex flex-col items-center">
-          <div class="w-32 h-32">
-            <img src="/images/products/ice-cream.jpg" alt="" class="object-cover w-32 h-32 rounded-full">          
-          </div>
-          <p class="text-base font-semibold font-serif text-[#ff3009ff]">Ice Cream</p>
-        </div>
-
-        <div class="col-start-3 col-span-1 flex flex-col items-center">
-          <div class="w-32 h-32 ">
-            <img src="/images/products/cake.jpg" alt="" class="object-cover w-32 h-32 rounded-full">          
-          </div>
-          <p class="text-base font-semibold font-serif text-[#ff3009ff]">Cup Cake</p>
-        </div>
-
-        <div class="col-start-4 col-span-1 flex flex-col items-center">
-          <div class="w-32 h-32 ">
-            <img src="/images/products/beef.jpeg" alt="" class="object-cover w-32 h-32 rounded-full">        
-          </div>
-          <p class="text-base font-semibold font-serif text-[#ff3009ff]">Beef</p>
-        </div>
-
-  </div>
-    </div>
-
-
-
-
-  </div>
-
-<!--Dishes End-->
-
-
-<!-- New On Hungrybelly -->
-  <div class="container">
-    <p class="font-serif  text-[#ff3009ff] font-bold text-2xl mt-5">New on Hungrybelly</p>
-
-    <p class="text-xs text-gray-400">Be one of the first to support</p>
-    <div class="h-1 w-1/2 rounded-lg bg-yellow-300 mt-2"></div>
-
-    <div class=" grid grid-cols-4 md:space-x-2 md:flex  md:justify-center">
-      <div class="space-x-2 col-start-1 col-span-2 flex justify-between">
-        <div class="col-start-1 col-span-1">
-          <div class="relative text-center h-44  md:w-72 w-60 mt-7 overflow-clip hover:cursor-pointer ">
-            <img src="/images/shop/shop-3.jpg" alt="" class="h-36 w-80 object-cover rounded-md">
-            <span class=" text-white font-normal h-7 bg-[#ff3000ff] absolute top-3 left-0 text-left px-3 rounded-r-2xl text-sm pt-1">5
-              Offer Available</span>
-            <span class="text-yellow-400 absolute top-3 right-2">
-              <i class="fas fa-star"></i>
-            </span>
-            <p class="absolute left-0 bottom-0 font-medium text-sm text-gray-600"> Your Shop Name</p>
-          </div>
-        </div>
-  
-        <div class="col-start-2 col-span-1">
-          <div class="relative text-center h-44 md:w-72 w-60 mt-7 overflow-clip hover:cursor-pointer ">
-            <img src="/images/shop/shop-4.jpg" alt="" class="h-36 w-80 object-cover rounded-md">
-            <span class=" text-white font-normal h-7 bg-[#ff3000ff] absolute top-3 left-0 text-left px-3 rounded-r-2xl text-sm pt-1">5
-              Offer Available</span>
-            <span class="text-yellow-400 absolute top-3 right-2">
-              <i class="fas fa-star"></i>
-            </span>
-            <p class="absolute left-0 bottom-0 font-medium text-sm text-gray-600"> Your Shop Name</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="space-x-2 col-start-1 col-span-2 flex justify-between">
-        <div class="col-start-1 col-span-1">
-          <div class="relative text-center h-44  md:w-72 w-60 mt-7 overflow-clip hover:cursor-pointer ">
-            <img src="/images/shop/shop-2.jpg" alt="" class="h-36 w-80 object-cover rounded-md">
-            <span class=" text-white font-normal h-7 bg-[#ff3000ff] absolute top-3 left-0 text-left px-3 rounded-r-2xl text-sm pt-1">5
-              Offer Available</span>
-            <span class="text-yellow-400 absolute top-3 right-2">
-              <i class="fas fa-star"></i>
-            </span>
-            <p class="absolute left-0 bottom-0 font-medium text-sm text-gray-600"> Your Shop Name</p>
-          </div>
-        </div>
-  
-        <div class="col-start-2 col-span-1">
-          <div class="relative text-center h-44 md:w-72 w-60 mt-7 overflow-clip hover:cursor-pointer ">
-            <img src="/images/shop/shop-5.jpg" alt="" class="h-36 w-80 object-cover rounded-md">
-            <span class=" text-white font-normal h-7 bg-[#ff3000ff] absolute top-3 left-0 text-left px-3 rounded-r-2xl text-sm pt-1">5
-              Offer Available</span>
-            <span class="text-yellow-400 absolute top-3 right-2">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </span>
-            <p class="absolute left-0 bottom-0 font-medium text-sm text-gray-600"> Your Shop Name</p>
-          </div>
-        </div>
-      </div>
-
-
-    </div>
-
-  </div>
-<!-- New On Hungrybelly End-->
-
-<!-- Popular Near You -->
-  <div class="container">
-    <p class="font-serif  text-[#ff3009ff] font-bold text-2xl mt-5">Popular Near You</p>
-
-    <p class="text-xs text-gray-400">Let's bite now</p>
-    <div class="h-1 w-1/2 rounded-lg bg-yellow-300 mt-2"></div>
-
-    <div class=" grid grid-cols-4 md:space-x-2 md:flex  md:justify-center">
-      <div class="space-x-2 col-start-1 col-span-2 flex justify-between">
-        <div class="col-start-1 col-span-1">
-          <div class="relative text-center h-44  md:w-72 w-60 mt-7 overflow-clip hover:cursor-pointer ">
-            <img src="/images/shop/shop-7.jpg" alt="" class="h-36 w-80 object-cover rounded-md">
-            <span class=" text-white font-normal h-7 bg-[#ff3000ff] absolute top-3 left-0 text-left px-3 rounded-r-2xl text-sm pt-1">
-              40 item Available</span>
-            <span class="text-yellow-400 absolute top-3 right-2">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-
-
-            </span>
-            <p class="absolute left-0 bottom-0 font-medium text-sm text-gray-600"> Your Shop Name</p>
-          </div>
-        </div>
-  
-        <div class="col-start-2 col-span-1">
-          <div class="relative text-center h-44 md:w-72 w-60 mt-7 overflow-clip hover:cursor-pointer ">
-            <img src="/images/shop/shop-6.jpg" alt="" class="h-36 w-80 object-cover rounded-md">
-            <span class=" text-white font-normal h-7 bg-[#ff3000ff] absolute top-3 left-0 text-left px-3 rounded-r-2xl text-sm pt-1">5
-              Offer Available</span>
-            <span class="text-yellow-400 absolute top-3 right-2">
-              <i class="fas fa-star"></i>
-            </span>
-            <p class="absolute left-0 bottom-0 font-medium text-sm text-gray-600"> Your Shop Name</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="space-x-2 col-start-1 col-span-2 flex justify-between">
-        <div class="col-start-1 col-span-1">
-          <div class="relative text-center h-44  md:w-72 w-60 mt-7 overflow-clip hover:cursor-pointer ">
-            <img src="/images/shop/shop-8.jpg" alt="" class="h-36 w-80 object-cover rounded-md">
-            <span class=" text-white font-normal h-7 bg-[#ff3000ff] absolute top-3 left-0 text-left px-3 rounded-r-2xl text-sm pt-1">5
-              78 Item Available</span>
-            <span class="text-yellow-400 absolute top-3 right-2">
-              <i class="fas fa-star"></i>
-            </span>
-            <p class="absolute left-0 bottom-0 font-medium text-sm text-gray-600"> Your Shop Name</p>
-          </div>
-        </div>
-  
-        <div class="col-start-2 col-span-1">
-          <div class="relative text-center h-44 md:w-72 w-60 mt-7 overflow-clip hover:cursor-pointer ">
-            <img src="/images/shop/shop-9.jpg" alt="" class="h-36 w-80 object-cover rounded-md">
-            <span class=" text-white font-normal h-7 bg-[#ff3000ff] absolute top-3 left-0 text-left px-3 rounded-r-2xl text-sm pt-1">55
-              Item Available</span>
-            <span class="text-yellow-400 absolute top-3 right-2">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-
-              <i class="fas fa-star"></i>
-
-            </span>
-            <p class="absolute left-0 bottom-0 font-medium text-sm text-gray-600"> Your Shop Name</p>
-          </div>
-        </div>
-      </div>
-
-
-    </div>
-
-  </div>
-
-  <!-- End Popular Near You -->
-
-<!-- Only Available Here -->
-  <div class="container">
-    <p class="font-serif  text-[#ff3009ff] font-bold text-2xl mt-5">Only Available Here</p>
-
-    <p class="text-xs text-gray-400">Test the unique foods.</p>
-    <div class="h-1 w-1/2 rounded-lg bg-yellow-300 mt-2"></div>
-
-    <div class=" grid grid-cols-4 md:space-x-2 md:flex  md:justify-center">
-      <div class="space-x-2 col-start-1 col-span-2 flex justify-between">
-        <div class="col-start-1 col-span-1">
-          <div class="relative text-center h-44  md:w-72 w-60 mt-7 overflow-clip hover:cursor-pointer ">
-            <img src="/images/shop/shop-17.jpg" alt="" class="h-36 w-80 object-cover rounded-md">
-            <span class=" text-white font-normal h-7 bg-[#ff3000ff] absolute top-3 left-0 text-left px-3 rounded-r-2xl text-sm pt-1">Spend 30$ for free delivery</span>
-            <span class="text-yellow-400 absolute top-3 right-2">
-              <i class="fas fa-star"></i>
-            </span>
-            <p class="absolute left-0 bottom-0 font-medium text-sm text-gray-600"> Your Shop Name</p>
-          </div>
-        </div>
-  
-        <div class="col-start-2 col-span-1">
-          <div class="relative text-center h-44 md:w-72 w-60 mt-7 overflow-clip hover:cursor-pointer ">
-            <img src="/images/products/hamburger.jpg" alt="" class="h-36 w-80 object-cover rounded-md">
-            <span class=" text-white font-normal h-7 bg-[#ff3000ff] absolute top-3 left-0 text-left px-3 rounded-r-2xl text-sm pt-1">5
-              Offer Available</span>
-            <span class="text-yellow-400 absolute top-3 right-2">
-              <i class="fas fa-star"></i>
-            </span>
-            <p class="absolute left-0 bottom-0 font-medium text-sm text-gray-600"> Your Shop Name</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="space-x-2 col-start-1 col-span-2 flex justify-between">
-        <div class="col-start-1 col-span-1">
-          <div class="relative text-center h-44  md:w-72 w-60 mt-7 overflow-clip hover:cursor-pointer ">
-            <img src="/images/shop/shop-16.jpg" alt="" class="h-36 w-80 object-cover rounded-md">
-            <span class=" text-white font-normal h-7 bg-[#ff3000ff] absolute top-3 left-0 text-left px-3 rounded-r-2xl text-sm pt-1">1 Item Available</span>
-            <span class="text-yellow-400 absolute top-3 right-2">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-
-            </span>
-            <p class="absolute left-0 bottom-0 font-medium text-sm text-gray-600"> Your Shop Name</p>
-          </div>
-        </div>
-  
-        <div class="col-start-2 col-span-1">
-          <div class="relative text-center h-44 md:w-72 w-60 mt-7 overflow-clip hover:cursor-pointer ">
-            <img src="/images/shop/shop-15.jpg" alt="" class="h-36 w-80 object-cover rounded-md">
-            <span class=" text-white font-normal h-7 bg-[#ff3000ff] absolute top-3 left-0 text-left px-3 rounded-r-2xl text-sm pt-1">No
-              Offer Available</span>
-            <span class="text-yellow-400 absolute top-3 right-2">
-              <i class="fas fa-star"></i>
-            </span>
-            <p class="absolute left-0 bottom-0 font-medium text-sm text-gray-600"> Your Shop Name</p>
-          </div>
-        </div>
-      </div>
-
-
-    </div>
-
-  </div>
-<!-- Only Available Here End-->
-
-<!-- Local Favorites -->
-<div class="container">
-  <p class="font-serif  text-[#ff3009ff] font-bold text-2xl mt-5">Local Favorites</p>
-
-  <div class="h-1 w-1/2 rounded-lg bg-yellow-300 mt-1 mb-5"></div>
-
-  <div class=" grid grid-cols-4 md:space-x-2 ">
-    <div class="space-x-2 col-start-1 col-span-4 flex justify-between px-9 ">
-      <div class="col-start-1 col-span-1 border border-gray-300 rounded-sm">
-
-        <img src="/images/shop/shop-14.jpg" alt="" class="h-36 w-80 object-cover ">
-
-        <div class="space-y-1 p-2">
-          <p class="text-sm font-medium text-gray-700">European Grill & BBQ</p>
-          <div class="space-y-1">
-            <img src="/images/category.svg" class="h-3 w-5 object-cover overflow-clip inline-block" alt="">
-            <span class="font-semibold text-xs text-gray-600">Sea Food</span>
-          </div>
-        </div>
-
-        <div class="flex justify-between items-center px-2">
-          <span class="font-semibold text-xs text-gray-700">25-35</span>
-          <span class="text-yellow-400 top-3 right-2">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-
-          </span>
-        </div>
-       
-      </div>
-
-      <div class="col-start-2 col-span-1 border border-gray-300 rounded-sm">
-
-        <img src="/images/shop/shop-1.jpg" alt="" class="h-36 w-80 object-cover ">
-
-        <div class="space-y-1 p-2">
-          <p class="text-sm font-medium text-gray-700">European Grill & BBQ</p>
-          <div class="space-y-1">
-            <img src="/images/category.svg" class="h-3 w-5 object-cover overflow-clip inline-block" alt="">
-            <span class="font-semibold text-xs text-gray-600">Sea Food</span>
-          </div>
-        </div>
-
-        <div class="flex justify-between items-center px-2">
-          <span class="font-semibold text-xs text-gray-700">25-35</span>
-          <span class="text-yellow-400 top-3 right-2">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-
-          </span>
-        </div>
- 
-      </div>
-
-      <div class="col-start-3 col-span-1 border border-gray-300 rounded-sm">
-
-        <img src="/images/products/hamburger.jpg" alt="" class="h-36 w-80 object-cover ">
-
-        <div class="space-y-1 p-2">
-          <p class="text-sm font-medium text-gray-700">European Grill & BBQ</p>
-          <div class="space-y-1">
-            <img src="/images/category.svg" class="h-3 w-5 object-cover overflow-clip inline-block" alt="">
-            <span class="font-semibold text-xs text-gray-600">Sea Food</span>
-          </div>
-        </div>
-
-        <div class="flex justify-between items-center px-2">
-          <span class="font-semibold text-xs text-gray-700">25-35</span>
-          <span class="text-yellow-400 top-3 right-2">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-
-          </span>
-        </div>
- 
-      </div>
-
-      <div class="col-start-4 col-span-1 border border-gray-300 rounded-sm">
-
-        <img src="/images/products/pancakes.jpg" alt="" class="h-36 w-80 object-cover ">
-
-        <div class="space-y-1 p-2">
-          <p class="text-sm font-medium text-gray-700">European Grill & BBQ</p>
-          <div class="space-y-1">
-            <img src="/images/category.svg" class="h-3 w-5 object-cover overflow-clip inline-block" alt="">
-            <span class="font-semibold text-xs text-gray-600">Sea Food</span>
-          </div>
-        </div>
-
-        <div class="flex justify-between items-center px-2">
-          <span class="font-semibold text-xs text-gray-700">25-35</span>
-          <span class="text-yellow-400 top-3 right-2">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-
-          </span>
-        </div>
- 
-      </div>
-
-    </div>
-
-  
-
-
-  </div>
-
-</div>
-<!-- Local Favorites End-->
 
 
 

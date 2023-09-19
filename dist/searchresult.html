@@ -24,31 +24,65 @@
 
             <img src="/images/logo-sm.svg" class="h-28 md:w-44 w-36  pl-2 " alt="">
 
-            <div class="md:h-9 md:w-52 h-7 w-52 bg-[#ff6447ff] rounded-2xl items-center sm:block hidden">
-                <div class="items-center md:mt-1.5 mt-0.5">
+            <div class="md:h-9 md:w-52 h-7 w-36 bg-[#ff6447ff] rounded-2xl items-center lg:block hidden ring-4 ring-[#ff5738ff]">
+                <div class="items-center md:mt-1.5 mt-0.5 h-7 w-52">
                     <img src="/images/locationmark.svg" alt="" class="bottom-0 h-5 w-7 inline-block">
                     <span class="text-white md:text-base text-sm inline-block">Khulna, Bagerhat</span>
                 </div>
             </div>
 
+            <div class="relative ring-4 ring-[#ff5738ff] rounded-2xl">
+
+                <input type="text" name="" id=""
+                  class="placeholder:text-gray-500 text-xs lg:text-sm rounded-3xl px-8 bg-white border-1 font-medium border-white w-60 h-9 md:h-9 lg:w-96 lg:h-9 cursor-pointer"
+                  placeholder="      What makes you most hungry?">
+                <img src="/images/search.svg" alt="" class="absolute left-1 top-1/2 transform -translate-y-1/2 w-7 h-7  ">
+        
+                <a href="searchresult.html"
+                  class="absolute right-1 top-1/2 transform -translate-y-1/2 w-7 h-7 md:h-7 md:w-7 rounded-full text-center bg-[#ff3009ff]   text-white text-sm md:text-lg flex items-center justify-center ">
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+        
+              </div>
+
             <div class="">
                 <button
-                class="bg-[#ff6447ff] text-sm rounded-2xl font-serif  font-normal text-white md:h-9 md:w-20   w-16 h-7 text-center cursor-pointer">Cart
+                class="bg-[#dd2200ff] text-sm rounded-2xl font-serif  font-normal text-white md:h-10 md:w-24  w-20 h-7 text-center cursor-pointer space-x-1"> 
                 <span class="text-white">
-                    <i class="fa-solid fa-heart"></i>
-                </span></button>
+                    <i class="fa-solid fa-bucket"></i>
+                </span>
+
+                <span class="text-whites">Cart </span>
+
+               
+                <span class="text-white font-sans">0</span>
+            </button>
                 
             </div>
 
-        <div class=" space-x-3 flex justify-between items-center">
+
+        <div class=" space-x-3 flex justify-center items-center bg-[#ff5738ff] ring-3 ring-[#ff6447ff]  md:h-11 w-60 h-8 rounded-3xl ">
             <button
-                class="bg-[#ff6447ff] text-sm rounded-2xl font-serif  font-normal text-white md:h-9 md:w-20   w-16 h-7 text-center cursor-pointer">Sign
+                class="bg-[#ff3009ff]  text-sm  font-serif  font-normal text-white md:h-9 md:w-20   w-20 h-7 text-center cursor-pointer rounded-2xl ml-1">Guest</button>
+
+             <button
+                class=" text-sm font-serif  font-normal text-white md:h-9 md:w-20   w-20 h-7 text-center cursor-pointer hidden md:block ">Sign
+                Up</button>
+
+                <button
+                    class=" text-sm  font-serif  font-normal text-white text-center  md:h-9 md:w-20  w-20 h-7 cursor-pointer">Sign
+                    In</button>
+        </div>
+
+        <!-- <div class=" space-x-3 flex justify-between items-center">
+            <button
+                class="bg-[#ff6447ff] text-sm rounded-2xl font-serif  font-normal text-white md:h-9 md:w-20   w-16 h-7 text-center cursor-pointer ">Sign
                 Up</button>
 
                 <button
                     class="bg-[#ff6447ff] text-sm rounded-2xl font-serif  font-normal text-white text-center  md:h-9 md:w-20  w-16 h-7 cursor-pointer">Sign
                     In</button>
-            </div>
+            </div> -->
 
     </nav>
 
