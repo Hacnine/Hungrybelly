@@ -12,85 +12,280 @@
 </head>
 
 <body class="bg-gray-100">
-    <header
-        class=" bg-no-repeat object-cover h-32 w-full overflow-clip">
-        <img src="/images/products/beef-1.jpeg" class="h-32 w-full">
+    <header class=" bg-no-repeat object-cover h-32 w-full overflow-clip">
+        <img src="/images/banner-twot.png" class="object-cover ">
     </header>
     <nav class="px-4 flex items-center justify-between font-serif bg-[#ff3009ff] h-20 w-full space-x-2">
 
-            <span class="text-white cursor-pointer text-lg">
-                <i class="fa-solid fa-bars"></i>
-            </span>
 
-            <img src="/images/logo-sm.svg" class="h-28 md:w-44 w-36  pl-2 " alt="">
 
-            <div class="md:h-9 md:w-52 h-7 w-36 bg-[#ff6447ff] rounded-2xl items-center lg:block hidden ring-4 ring-[#ff5738ff]">
-                <div class="items-center md:mt-1.5 mt-0.5 h-7 w-52">
-                    <img src="/images/locationmark.svg" alt="" class="bottom-0 h-5 w-7 inline-block">
-                    <span class="text-white md:text-base text-sm inline-block">Khulna, Bagerhat</span>
-                </div>
+        <svg fill="none" viewBox="0 0 24 24" stroke-width="2.3" stroke="currentColor"
+            class="w-7 h-7 stroke-slate-200 cursor-pointer	">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+
+
+        <img src="/images/logo-sm.svg" class="h-28 md:w-44 w-36  pl-2 " alt="">
+
+        <div
+            class="md:h-9 md:w-52 h-7 w-36 bg-[#ff6447ff] rounded-2xl items-center lg:block hidden ring-4 ring-[#ff5738ff]">
+            <div class="items-center md:mt-1.5 mt-0.5 h-7 w-52">
+                <img src="/images/locationmark.svg" alt="" class="bottom-0 h-5 w-7 inline-block">
+                <span class="text-white md:text-base text-sm inline-block">Khulna, Bagerhat</span>
             </div>
+        </div>
 
-            <div class="relative ring-4 ring-[#ff5738ff] rounded-2xl">
+        <div class="relative ring-4 ring-[#ff5738ff] rounded-2xl sm:block hidden">
 
-                <input type="text" name="" id=""
-                  class="placeholder:text-gray-500 text-xs lg:text-sm rounded-3xl px-8 bg-white border-1 font-medium border-white w-60 h-9 md:h-9 lg:w-96 lg:h-9 cursor-pointer"
-                  placeholder="      What makes you most hungry?">
-                <img src="/images/search.svg" alt="" class="absolute left-1 top-1/2 transform -translate-y-1/2 w-7 h-7  ">
-        
-                <a href="searchresult.html"
-                  class="absolute right-1 top-1/2 transform -translate-y-1/2 w-7 h-7 md:h-7 md:w-7 rounded-full text-center bg-[#ff3009ff]   text-white text-sm md:text-lg flex items-center justify-center ">
-                  <i class="fas fa-chevron-right"></i>
-                </a>
-        
-              </div>
+            <input type="text" name="" id=""
+                class="placeholder:text-gray-500 text-xs lg:text-sm rounded-3xl md:px-8 px-6 bg-white border-1 font-medium border-white w-48 h-7 md:h-9 lg:w-96 lg:h-9 cursor-pointer "
+                placeholder="What makes you most hungry?">
+            <img src="/images/search.svg" alt=""
+                class="absolute left-1 top-1/2 transform -translate-y-1/2 md:w-7 md:h-7 h-6 w-6  ">
 
-            <div class="">
-                <button
-                class="bg-[#dd2200ff] text-sm rounded-2xl font-serif  font-normal text-white md:h-10 md:w-24  w-20 h-7 text-center cursor-pointer space-x-1"> 
+            <a href="searchresult.html"
+                class="absolute right-1 top-1/2 transform -translate-y-1/2 w-6 h-6 md:h-7 md:w-7 rounded-full text-center bg-[#ff3009ff]   text-white text-sm md:text-lg flex items-center justify-center ">
+                <i class="fas fa-chevron-right"></i>
+            </a>
+
+        </div>
+
+        <div class="">
+            <button
+                class="bg-[#dd2200ff] text-sm rounded-2xl font-serif  font-normal text-white md:h-10 md:w-24  w-20 h-7 text-center cursor-pointer space-x-1">
                 <span class="text-white">
-                    <i class="fa-solid fa-bucket"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
                 </span>
 
                 <span class="text-whites">Cart </span>
 
-               
+
                 <span class="text-white font-sans">0</span>
             </button>
-                
-            </div>
+
+        </div>
 
 
-        <div class=" space-x-3 flex justify-center items-center bg-[#ff5738ff] ring-3 ring-[#ff6447ff]  md:h-11 w-60 h-8 rounded-3xl ">
+        <div
+            class=" space-x-3 flex justify-center items-center bg-[#ff5738ff] ring-3 ring-[#ff6447ff]  md:h-11 md:w-60 w-44 h-8 rounded-3xl ">
             <button
                 class="bg-[#ff3009ff]  text-sm  font-serif  font-normal text-white md:h-9 md:w-20   w-20 h-7 text-center cursor-pointer rounded-2xl ml-1">Guest</button>
 
-             <button
+            <button
                 class=" text-sm font-serif  font-normal text-white md:h-9 md:w-20   w-20 h-7 text-center cursor-pointer hidden md:block ">Sign
                 Up</button>
 
-                <button
-                    class=" text-sm  font-serif  font-normal text-white text-center  md:h-9 md:w-20  w-20 h-7 cursor-pointer">Sign
-                    In</button>
+            <button
+                class=" text-sm  font-serif  font-normal text-white text-center  md:h-9 md:w-20  w-20 h-7 cursor-pointer">Sign
+                In</button>
         </div>
 
-        <!-- <div class=" space-x-3 flex justify-between items-center">
-            <button
-                class="bg-[#ff6447ff] text-sm rounded-2xl font-serif  font-normal text-white md:h-9 md:w-20   w-16 h-7 text-center cursor-pointer ">Sign
-                Up</button>
-
-                <button
-                    class="bg-[#ff6447ff] text-sm rounded-2xl font-serif  font-normal text-white text-center  md:h-9 md:w-20  w-16 h-7 cursor-pointer">Sign
-                    In</button>
-            </div> -->
 
     </nav>
 
+  
+
+
+
+    <div class="container grid grid-cols-12 pt-6">
+        <!-- Slidebar -->
+        <div class="col-span-3 items-start">
+            <div class=" shadow pt-2  px-3 pb-16 rounded">
+                <div class="divide-y divide-gray-200 space-y-5">
+
+                    <!-- From Hungrybelly Filter  -->
+                    <div class="pt-4 space-y-2 ">
+                        <p class="text-lg font-medium text-slate-600">From Hungrybelly</p>
+                        <div class="flex items-center justify-between">
+                            <div class="space-x-2 inline-block">
+                                <img src="/images/deals.svg" alt="" class="w-7 h-5 md:inline-block hidden">
+                                <span class="text-base text-gray-600 ">Deals</span>
+                            </div>
+                            <div class=" w-8 h-3 rounded-xl bg-slate-200 flex items-center gap-2  ">
+                                <button class="bg-slate-300 w-4 h-4 hover:bg-transparent rounded-full"></button>
+                                <button class="hover: rounded-full "></button>
+                            </div>
+                        </div>
+
+
+                        <div class="flex items-center justify-between">
+                            <div class="space-x-2">
+                                <img src="/images/Top Eats.svg" alt="" class=" hidden w-7 h-5 md:inline-block">
+                                <span class="text-base text-gray-600 ">Top Eats</span>
+                            </div>
+
+
+                            <div class=" w-8 h-3 rounded-xl bg-slate-200 flex items-center gap-2  ">
+                                <button class="bg-slate-300 w-4 h-4 hover:bg-transparent rounded-full"></button>
+                                <button class="hover: rounded-full "></button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- From Hungrybelly Filter End -->
+
+                    <!-- Delivery Fee Filter -->
+                    <div class="pt-4 space-y-2 ">
+                        <p class="text-lg font-medium text-slate-600">Delivery Fee</p>
+                    </div>
+                    <!-- Delivery Fee Filter End -->
+
+                    <!-- Dietary Filter -->
+                    <div class="pt-4 space-y-2 ">
+                        <p class="text-lg font-medium text-slate-600">Dietary</p>
+
+                        <div class="md:flex md:items-center space-y-2 gap-2 text-sm">
+                            <button class="bg-slate-200 rounded-2xl w-28 h-7  text-gray-600 ">Vegetarian</button>
+                            <button class="bg-slate-200 rounded-2xl w-28 h-7  text-gray-600  ">Gluten Free</button>
+                            <button class="bg-slate-200 rounded-2xl w-28 h-7  text-gray-600  ">Vegan</button>
+
+                        </div>
+
+                    </div>
+                    <!-- Dietary Filter End -->
+
+                    <!-- Brands Filter -->
+                    <div class="pt-4">
+                        <p class="text-lg text-gray-800 font-medium">Category</p>
+
+                        <div class="flex justify-between pt-3">
+                            <span class="text-gray-600">Buns</span>
+                            <span class="text-gray-600 text-sm">(5
+                                )</span>
+                        </div>
+
+                        <div class="flex justify-between pt-3">
+                            <span class="text-gray-600">Burger</span>
+                            <span class="text-gray-600 text-sm">(523)</span>
+                        </div>
+
+                        <div class="flex justify-between pt-3">
+                            <span class="text-gray-600">Meal Kits</span>
+                            <span class="text-gray-600 text-sm">(53)</span>
+                        </div>
+
+                        <div class="flex justify-between pt-3">
+                            <span class="text-gray-600">Bacon</span>
+                            <span class="text-gray-600 text-sm">(523)</span>
+                        </div>
+                    </div>
+                    <!-- Brands Filter Ends -->
+
+                    <div class="pt-4">
+                        <p class="text-lg text-gray-800 font-medium">Price Range</p>
+                        <div class="flex items-center mt-4 gap-2">
+                            <input type="text" placeholder="$$"
+                                class="w-12 h-8 py-1 border-gray-300 focus:border-blue-800 rounded-2xl ">
+                            <input type="text" placeholder="$$$"
+                                class="w-16 h-8 py-1 border-gray-300 focus:border-blue-800 rounded-2xl">
+
+                            <input type="text" placeholder="$$$$"
+                                class="w-20 h-8 py-1 border-gray-300 focus:border-blue-800 rounded-2xl md:block hidden">
 
 
 
 
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Product -->
+        <div class="col-start-5 col-end-13 ml-3">
+            <div class="items-center flex justify-center pt-6 sm:hidden">
+                <div class="relative ring-4 ring-[#ff5738ff] rounded-2xl  w-80 h-7">
+        
+                    <input type="text" name="" id=""
+                        class="placeholder:text-gray-500 text-xs rounded-3xl  px-6 bg-white border-1 font-medium border-white  w-80 h-7 cursor-pointer"
+                        placeholder="What makes you most hungry?">
+                    <img src="/images/search.svg" alt=""
+                        class="absolute left-1 top-1/2 transform -translate-y-1/2 md:w-7 md:h-7 h-6 w-6  ">
+        
+                    <a href="searchresult.html"
+                        class="absolute right-1 top-1/2 transform -translate-y-1/2 w-6 h-6 md:h-7 md:w-7 rounded-full text-center bg-[#ff3009ff]   text-white text-sm md:text-lg flex items-center justify-center ">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+        
+                </div>
+            </div>
+            <div class="flex justify-between items-center mb-4 pt-5">
+                <select name="" id=""
+                    class="w-44 text-sm text-gray-600 border-gray-300 shadow-md rounded focus:ring-blue-600 focus:border-blue-600 px-4 py-3">
+                    <option value="">Deafult sorting</option>
+                    <option value="">Price low-high</option>
+                    <option value="">Price high-low</option>
+                    <option value="">Latest product</option>
+                </select>
+
+                <div class="flex gap-1 ml-auto">
+                    <div
+                        class="bg-[#ff0000] text-white rounded w-10 h-9 border-[#ff0000] flex items-center justify-center cursor-pointer">
+                        <i class="fas fa-th"></i>
+                    </div>
+                    <div
+                        class=" text-gray-600 rounded w-10 h-9  flex items-center justify-center border-gray-950 cursor-pointer">
+                        <i class="fas fa-list"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Search Result -->
+            <div class="grid grid-cols-3 gap-2">
+                <div class="flex justify-between items-center space-x-2">
+
+                    <div class=" items-center space-x-4  space-y-2 ">
+                        <div class="w-96">
+                            <img src="/images/shop/baklava-3.jpg" alt="" class=" pt-3  w-96 object-cover overflow-clip">
+                        </div>
+                        <!-- Image end -->
+                        <div class="flex items-start justify-between text-xs">
+                            <p class="font-serif text-sm font-bold  text-gray-700 ">Top Bak</p>
+                            <p class="font-serif text-xs font-semibold  text-gray-700 ">Top Rated</p>
+                        </div>
+                        <p class="text-sm  text-gray-500  block">Fast Food, Baklava</p>
+                        <div class="">
+                            <img src="/images/free-delivary logo.svg" class="h-3 w-3 inline-block" alt="">
+                            <span class="inline-block font-bold text-xs text-blue-600">Free delivery</span> <span
+                                class="inline-block font-bold text-xs text-blue-600">(Spend $45)</span>
+                        </div>
+
+                        <div class="flex items-start justify-between text-xs  text-gray-600">
+                            <div class="">
+                                <span class="font-medium">
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span> 3.9</span>
+                                <span>(11)</span>
+                            </div>
+
+                            <div class="w-1 h-1 mt-2 rounded-full sm:block hidden"></div>
+
+                            <div class="w-14">
+                                <span class=""><i class="fa-solid fa-location-pin"></i></span>
+                                <span>16.7km</span>
+                            </div>
+                            <div class="w-1 h-1 bg-gray-500 mt-2 rounded-full sm:block hidden"></div>
+
+                            <div class="">
+                                <i class="fa-solid fa-stopwatch"></i>
+                                <span>34-56</span>
+                                <span>minutes</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- Search Result End -->
+        </div>
+    </div>
 
 
 
